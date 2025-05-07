@@ -1,10 +1,13 @@
+import Link from "next/link";
+
 export default function Footer() {
     return (
         <footer className="bg-gray-900 text-white py-12 px-4">
             <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
                 {/* Блок 1 — О компании */}
                 <div>
-                    <a href={'/'} className="text-2xl flex gap-0.5 font-bold text-blue-600 mb-4">
+
+                    <Link href="/" className="text-2xl flex gap-0.5 font-bold text-blue-600 mb-4">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="w-7 h-7 text-blue-600"
@@ -20,7 +23,7 @@ export default function Footer() {
                             />
                         </svg>
                         Business Analysts
-                    </a>
+                    </Link>
                     <p className="text-gray-400 text-sm leading-relaxed">
                         Empowering professionals in Australia with the business English they need to succeed in data-driven industries.
                     </p>
@@ -53,19 +56,26 @@ export default function Footer() {
                     <h4 className="text-lg font-semibold mb-4">Legal</h4>
                     <ul className="text-sm space-y-2 text-gray-300">
                         <li>
-                            <a href="/cookie-policy" className="hover:text-blue-400 transition">
+                            <Link href="/cookie-policy" className="hover:text-blue-400 transition">
                                 Cookie Policy
-                            </a>
+                            </Link>
+
+
                         </li>
                         <li>
-                            <a href="/privacy-policy" className="hover:text-blue-400 transition">
+
+
+                            <Link href="/privacy-policy" className="hover:text-blue-400 transition">
                                 Privacy Policy
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/terms-of-use" className="hover:text-blue-400 transition">
+
+
+                            <Link href="/terms-of-use" className="hover:text-blue-400 transition">
                                 Terms of Use
-                            </a>
+                            </Link>
+
                         </li>
                     </ul>
                 </div>

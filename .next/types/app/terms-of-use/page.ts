@@ -1,4 +1,4 @@
-// File: C:\Users\Lenovo\Desktop\my-next-hero\src\app\terms-of-use\page.tsx
+// File: C:\Users\Lenovo\Desktop\businessAnalysts\src\app\terms-of-use\page.tsx
 import * as entry from '../../../../src/app/terms-of-use/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

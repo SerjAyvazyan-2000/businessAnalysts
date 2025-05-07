@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import {useState} from "react";
+import Link from "next/link";
 
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -23,7 +24,8 @@ export default function Header() {
     return (
         <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
             <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-                <a href={'/'} className="text-2xl font-bold flex gap-0.5 text-blue-600">
+
+                <Link href="/" className="text-2xl font-bold flex gap-0.5 text-blue-600">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-7 h-7 text-blue-600"
@@ -39,7 +41,7 @@ export default function Header() {
                         />
                     </svg>
                     Business Analysts
-                </a>
+                </Link>
 
                 {/* Desktop nav */}
                 <nav className="hidden md:flex gap-8 items-center">
