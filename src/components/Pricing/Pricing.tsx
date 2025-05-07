@@ -71,7 +71,7 @@ export default function Pricing() {
             <div className="max-w-7xl mx-auto text-center mb-16">
                 <h2 className="text-4xl font-bold text-gray-900 mb-4">Choose Your Plan</h2>
                 <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                    Flexible plans to meet your goals — whether you're just starting or preparing for advanced business roles.
+                    Flexible plans to meet your goals — whether youre just starting or preparing for advanced business roles.
                 </p>
             </div>
 
